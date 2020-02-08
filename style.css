@@ -1,0 +1,88 @@
+
+/*color and font */
+body{
+	background: #F4F4F4;
+	color: rgb(30,30,30);
+	font-family: Arial;
+	font-size: 17px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+}
+h1{
+	color:#71879e;
+	font-weight:900;
+	font-family:Didot, with serifs;
+	font-size:32px;
+	letter-spacing:4px;
+}
+h2{
+	color: #B78971;
+	font-family:Didot, serif;
+	font-size: 24px;
+	font-weight: lighter;
+}
+a{
+	text-decoration: none;
+	color:#B78971;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+a:hover{
+	color:black;
+}
+
+
+/* custom design with class*/
+.white-card{
+    background: white;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1);
+    margin: 20px auto;
+    text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.container{
+	width:60%;
+	margin:40px auto;
+}
+.btn-grey {
+	background-color: #A9A9A9; 
+	color:white;
+	padding:15px 20px;
+	border-radius: 4px;
+}
+.btn-grey:hover{
+	background-color:#696969;
+	color:white;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size:40px;
+	color:rgb(100,100,100);
+}
+/*design with idea*/
+#introduction p{
+	margin-bottom: 40px;
+}
+/*supplémentaire*/
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+@media(max-width: 760px){
+	.container{
+		width: 1500px;
+	}
+
