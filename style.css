@@ -23,12 +23,12 @@ h2{
 }
 a{
 	text-decoration: none;
-	color:#B78971;
+	color:white;
 	font-weight: bold;
 	transition: color 0.3s ease;
 }
 a:hover{
-	color:black;
+	color:white;
 }
 
 
@@ -49,10 +49,10 @@ a:hover{
 	margin:40px auto;
 }
 .btn-grey {
-	background-color: #A9A9A9; 
-	color:white;
+	background-color: rgba(210, 210, 145, 0.72);
 	padding:15px 20px;
 	border-radius: 4px;
+	color: white;
 }
 .btn-grey:hover{
 	background-color:#696969;
